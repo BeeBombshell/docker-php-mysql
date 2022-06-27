@@ -1,8 +1,8 @@
 <?php
 session_start();
-define('DB_SERVER', 'localhost');
+define('DB_SERVER', 'db');
 define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_PASS', 'example');
 define('DB_NAME', 'demo');
 class DB_con
 {
